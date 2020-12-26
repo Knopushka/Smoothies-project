@@ -1,5 +1,140 @@
+@font-face {
+    src: url("./assets/fonts/Muli-Bold.woff");
+    font-family: Muli-Bold;
+}
+
 .header {
     background-image: url(./assets/images/header/main-img.png);
     background-position: center;
     background-size: cover;
+    width: 1920px;
+    height: 1080px;
 }
+.header__top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+}
+.menu__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu__item {
+    margin: 30px;
+}
+.menu__link {
+    font-family: Muli-Bold;
+    font-size: 16px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.logo__link{}
+.logo__img{}
+
+.personal{
+}
+.personal__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.personal__list-item {
+    margin: 40px;
+}
+.personal__link{}
+.personal__icon-search{}
+.personal__icon-user{}
+.personal__cart-count{}
+
+.social{justify-content: flex-end;}
+.social__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.social__list-item {
+    margin: 10px;
+}
+.social__link{}
+.social__icon{}
+
+.header-content{}
+.header__content-inner{}
+.btn{
+    font-weight: 40px;
+    line-height: 20px; 
+    color: white;
+    border:none;
+    border-radius: 35px;
+    background: rgb(10,165,102);
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+.btn--green-b{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.header__top {
+display: flex;
+justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.menu__list {
+       font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.personal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;}
+
+.personal__list{
+    list-style: none;
+    display: flex;
+    align-items: center;}
+
+.personal__icon-search{
+    margin-left: ;
+}
+} */
