@@ -88,3 +88,56 @@
     -o-border-radius: 35px;
 }
 .btn--green-b{}
+
+.smoothies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1920px;
+    height: 860px;
+}
+.title{}
+.title--orange {}
+.text{}
+.text--black {
+    width: 915px;
+}
+.text--black{}
+
+.smoothies__features{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 970px;
+    height: 400px;
+}
+.smoothies__boxes{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center; */
+}
+.smoothies__box {
+    display: flex;
+    flex-direction: row;
+}
+
+.about{    
+}
+.about__benefits {
+    height: 800px;
+    background-color: #158570;
+}
+.title{}
+.about__list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    width: 620px;
+    height: 520px;
+}
